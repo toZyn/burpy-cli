@@ -1,0 +1,23 @@
+{
+  "name": "burpy",
+  "version": "1.7.0",
+  "type": "module",
+  "private": true,
+  "description": "Agente de terminal Burpy con contexto persistente y colaboraci\u00f3n",
+  "bin": {
+    "burpy": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "check": "node --check src/cli.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "highlight.js": "11.11.1",
+    "markdown-it": "14.1.0",
+    "string-width": "7.2.0"
+  }
+}
